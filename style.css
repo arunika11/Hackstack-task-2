@@ -1,0 +1,225 @@
+
+      *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        overflow-x: hidden;
+        background-color: #2C3333;
+        color: rgb(203, 228, 222);
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: #2E4F4F;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0px 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      .proje a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(203, 228, 222);
+        font-size: 1.01rem;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 23px 0px;
+      }
+      .firstSection > div {
+        width: 30%;
+        margin: 40px 0px;
+      }
+      .leftSection {
+        font-size: 2.2rem;
+      }
+      .rightSection img {
+        width: 80%;
+      }
+      .purple {
+        color: #0E8388;
+      }
+      #element {
+        color: #0E8388;
+      }
+      main hr {
+        border: 0;
+        margin: 40px 80px;
+        height: 1.2px;
+        background-color: rgb(203, 228, 222);
+      }
+      .secondSection {
+        margin: auto;
+        max-width: 80vw;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+      .text-gray {
+        color: gray;
+      }
+      .linee {
+        position: relative;
+        top: 60px;
+        width: 320px;
+        border: 1px solid rgb(203, 228, 222);
+        border-radius: 25px;
+        transition: width 2s, height 2s, background-color 2s, rotate 2s;
+        padding-bottom: 20px;
+      }
+      .exp {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 90px;
+      }
+      .box img {
+        margin-left: 100px;
+        margin-top: 10px;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+      }
+      .linee:hover {
+        background-color: #708282;
+      }
+      .path {
+        position: relative;
+        top: 150px;
+      }
+      .logos {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        margin-top: 20px;
+      }
+      .skill:hover {
+        background-color: #708282;
+      }
+      .logo img {
+        margin-left: 25px;
+        height: 100px;
+        width: 100px;
+      }
+      .skills {
+        position: relative;
+        top: 30px;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .skill {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 2px solid rgb(203, 228, 222);
+        transition: width 2s, height 2s, background-color 2s, rotate 2s;
+      }
+      .sett img{
+        margin-top: 10px;
+        height: 450px;
+      }
+      .settt{
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .abouut{
+        max-width: 500px;
+      }
+      .proje{
+        position: relative;
+        top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .proje div{
+        border-radius: 10px;
+        border: 2px solid rgb(203, 228, 222);
+        height: 250px;
+        width: 350px;
+        transition: width 2s, height 2s, background-color 2s, rotate 2s;
+      }
+      .proje div:hover{
+        background-color: #708282; 
+      }
+      .ht{
+        height: 500px;
+      }
+      .handles{
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .handles div{
+        height: 100px;
+        width: 100px;
+        border: 2px solid rgb(203, 228, 222);
+        border-radius: 50%;
+      }
+      .handles div img{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+      }
+      footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        background-color: #2E4F4F;
+      }
+      #scrollToTopBtn {
+        position: relative;
+        top: 110px;
+        left: 1250px;
+        background-color: black;
+        border: none;
+        border-radius: 50%;
+        color: rgb(203, 228, 222);
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 48px;
+        width: 48px;
+    }
+    .tools-illustrations{
+        width: 90%;
+        overflow: hidden;
+        white-space: nowrap;
+        height: 200px;
+
+    }
+    .tools-illustrations-slider{
+        display: inline-block;
+        animation: 30s slider infinite linear;
+    }
+    
+    @keyframes slider {
+        from{
+            transform: translateX(0%);
+        }
+        to{
+            transform: translateX(-100%);
+        }
+    }
